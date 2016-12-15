@@ -1,0 +1,7 @@
+RE3 BOARD
+M:	Keith Robinson <krobinson@bluechiptechnology.co.uk>
+S:	Maintained
+F:	board/bct/re3/
+F:	include/configs/re3.h
+F:	configs/re3_defconfig
+F:	configs/re3spl_defconfig

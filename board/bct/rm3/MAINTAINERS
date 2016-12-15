@@ -1,0 +1,7 @@
+RM3 BOARD
+M:	Keith Robinson <krobinson@bluechiptechnology.co.uk>
+S:	Maintained
+F:	board/bct/rm3/
+F:	include/configs/rm3.h
+F:	configs/rm3_defconfig
+F:	configs/rm3spl_defconfig

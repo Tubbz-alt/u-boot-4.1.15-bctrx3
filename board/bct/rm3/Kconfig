@@ -1,0 +1,15 @@
+if TARGET_RM3
+
+config SYS_BOARD
+	default "rm3"
+
+config SYS_VENDOR
+	default "bct"
+
+config SYS_SOC
+	default "mx6"
+
+config SYS_CONFIG_NAME
+	default "rm3"
+
+endif

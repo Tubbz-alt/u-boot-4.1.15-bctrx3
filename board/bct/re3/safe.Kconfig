@@ -1,0 +1,15 @@
+if TARGET_RE3
+
+config SYS_BOARD
+	default "re3"
+
+config SYS_VENDOR
+	default "bct"
+
+config SYS_SOC
+	default "mx6"
+
+config SYS_CONFIG_NAME
+	default "re3"
+
+endif
