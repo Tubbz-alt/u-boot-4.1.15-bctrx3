@@ -128,8 +128,6 @@ static int is_badblock(struct mtd_info *mtd, loff_t offs, int allowbbt)
 	register struct nand_chip *chip = mtd->priv;
 	unsigned int block = offs >> chip->phys_erase_shift;
 	unsigned int page = offs >> chip->page_shift;
-
-        return 0; /* debug purposes */
 	debug("%s offs=0x%08x block:%d page:%d\n", __func__, (int)offs, block,
 	      page);
 	chip->cmdfunc(mtd, NAND_CMD_READ0, mtd->writesize, page);
