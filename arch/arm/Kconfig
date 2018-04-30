@@ -524,6 +524,11 @@ config TARGET_RM3
         select CPU_V7
         select SUPPORT_SPL
 
+config TARGET_HB3
+        bool "Support HB3"
+        select CPU_V7
+        select SUPPORT_SPL
+
 config TARGET_MX6QSABREAUTO
 	bool "Support mx6qsabreauto"
 	select CPU_V7
@@ -835,6 +840,7 @@ source "arch/arm/imx-common/Kconfig"
 
 source "board/bct/re3/Kconfig"
 source "board/bct/rm3/Kconfig"
+source "board/bct/hb3/Kconfig"
 source "board/aristainetos/Kconfig"
 source "board/BuR/kwb/Kconfig"
 source "board/BuR/tseries/Kconfig"

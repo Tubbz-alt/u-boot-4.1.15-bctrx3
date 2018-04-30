@@ -1,0 +1,6 @@
+HB3 BOARD
+M:	Keith Robinson <krobinson@bluechiptechnology.co.uk>
+S:	Maintained
+F:	board/bct/hb3/
+F:	include/configs/hb3.h
+F:	configs/hb3spl_defconfig

@@ -1,0 +1,15 @@
+if TARGET_HB3
+
+config SYS_BOARD
+	default "hb3"
+
+config SYS_VENDOR
+	default "bct"
+
+config SYS_SOC
+	default "mx6"
+
+config SYS_CONFIG_NAME
+	default "hb3"
+
+endif
